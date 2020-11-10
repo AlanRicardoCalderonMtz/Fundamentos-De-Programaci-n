@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Precedencia de operadores.c</itemPath>
       <itemPath>hola_mundo.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -36,7 +37,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="hola_mundo.c" ex="false" tool="0" flavor2="0">
+      <item path="Precedencia de operadores.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,6 +60,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Precedencia de operadores.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="hola_mundo.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
