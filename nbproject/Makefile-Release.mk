@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/2\ Condicional\ if.o \
 	${OBJECTDIR}/Condicional\ if.o \
 	${OBJECTDIR}/Precedencia\ de\ operadores.o \
+	${OBJECTDIR}/While.o \
 	${OBJECTDIR}/hola_mundo.o
 
 
@@ -82,6 +83,11 @@ ${OBJECTDIR}/Precedencia\ de\ operadores.o: Precedencia\ de\ operadores.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Precedencia\ de\ operadores.o Precedencia\ de\ operadores.c
+
+${OBJECTDIR}/While.o: While.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/While.o While.c
 
 ${OBJECTDIR}/hola_mundo.o: hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
