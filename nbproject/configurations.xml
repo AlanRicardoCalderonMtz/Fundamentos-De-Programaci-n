@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>2 Condicional if.c</itemPath>
       <itemPath>Condicional if.c</itemPath>
       <itemPath>Precedencia de operadores.c</itemPath>
       <itemPath>hola_mundo.c</itemPath>
@@ -38,7 +39,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Condicional if.c" ex="false" tool="0" flavor2="0">
+      <item path="2 Condicional if.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -61,6 +62,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="2 Condicional if.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Condicional if.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Precedencia de operadores.c" ex="false" tool="0" flavor2="0">
