@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Precedencia\ de\ operadores.o
+	${OBJECTDIR}/Condicional\ if.o
 
 
 # C Compiler Flags
@@ -62,11 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/Precedencia\ de\ operadores.o
-${OBJECTDIR}/Precedencia\ de\ operadores.o: Precedencia\ de\ operadores.c
+.NO_PARALLEL:${OBJECTDIR}/Condicional\ if.o
+${OBJECTDIR}/Condicional\ if.o: Condicional\ if.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Precedencia\ de\ operadores.o Precedencia\ de\ operadores.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Condicional\ if.o Condicional\ if.c
 
 # Subprojects
 .build-subprojects:

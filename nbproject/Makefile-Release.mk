@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Condicional\ if.o \
 	${OBJECTDIR}/Precedencia\ de\ operadores.o \
 	${OBJECTDIR}/hola_mundo.o
 
@@ -62,6 +63,12 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+.NO_PARALLEL:${OBJECTDIR}/Condicional\ if.o
+${OBJECTDIR}/Condicional\ if.o: Condicional\ if.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Condicional\ if.o Condicional\ if.c
 
 .NO_PARALLEL:${OBJECTDIR}/Precedencia\ de\ operadores.o
 ${OBJECTDIR}/Precedencia\ de\ operadores.o: Precedencia\ de\ operadores.c
