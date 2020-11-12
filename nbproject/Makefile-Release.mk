@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/2\ Condicional\ if.o \
 	${OBJECTDIR}/Condicional\ if.o \
+	${OBJECTDIR}/For.o \
 	${OBJECTDIR}/Precedencia\ de\ operadores.o \
 	${OBJECTDIR}/Tablas_de_multiplicar.o \
 	${OBJECTDIR}/While.o \
@@ -78,6 +79,11 @@ ${OBJECTDIR}/Condicional\ if.o: Condicional\ if.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Condicional\ if.o Condicional\ if.c
+
+${OBJECTDIR}/For.o: For.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/For.o For.c
 
 .NO_PARALLEL:${OBJECTDIR}/Precedencia\ de\ operadores.o
 ${OBJECTDIR}/Precedencia\ de\ operadores.o: Precedencia\ de\ operadores.c
