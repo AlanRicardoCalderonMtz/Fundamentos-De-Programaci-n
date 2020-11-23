@@ -41,7 +41,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/Precedencia\ de\ operadores.o \
 	${OBJECTDIR}/Tablas_de_multiplicar.o \
 	${OBJECTDIR}/While.o \
-	${OBJECTDIR}/hola_mundo.o
+	${OBJECTDIR}/hola_mundo.o \
+	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o
 
 
 # C Compiler Flags
@@ -105,6 +106,11 @@ ${OBJECTDIR}/hola_mundo.o: hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/hola_mundo.o hola_mundo.c
+
+${OBJECTDIR}/tarea1_arreglos_unidimensionales.o: tarea1_arreglos_unidimensionales.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tarea1_arreglos_unidimensionales.o tarea1_arreglos_unidimensionales.c
 
 # Subprojects
 .build-subprojects:

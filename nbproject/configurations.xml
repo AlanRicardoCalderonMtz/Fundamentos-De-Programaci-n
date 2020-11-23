@@ -19,6 +19,7 @@
       <itemPath>Tablas_de_multiplicar.c</itemPath>
       <itemPath>While.c</itemPath>
       <itemPath>hola_mundo.c</itemPath>
+      <itemPath>tarea1_arreglos_unidimensionales.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -42,7 +43,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="For.c" ex="false" tool="0" flavor2="0">
+      <item path="tarea1_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -78,6 +79,8 @@
       <item path="While.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="hola_mundo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tarea1_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
