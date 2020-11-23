@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/For.o \
 	${OBJECTDIR}/Precedencia\ de\ operadores.o \
 	${OBJECTDIR}/Tablas_de_multiplicar.o \
+	${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o \
 	${OBJECTDIR}/While.o \
 	${OBJECTDIR}/hola_mundo.o \
 	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o
@@ -96,6 +97,11 @@ ${OBJECTDIR}/Tablas_de_multiplicar.o: Tablas_de_multiplicar.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tablas_de_multiplicar.o Tablas_de_multiplicar.c
+
+${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o: Tarea2_arreglos_unidimensionales.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o Tarea2_arreglos_unidimensionales.c
 
 ${OBJECTDIR}/While.o: While.c
 	${MKDIR} -p ${OBJECTDIR}

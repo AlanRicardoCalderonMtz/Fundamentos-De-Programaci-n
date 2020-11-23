@@ -17,6 +17,7 @@
       <itemPath>For.c</itemPath>
       <itemPath>Precedencia de operadores.c</itemPath>
       <itemPath>Tablas_de_multiplicar.c</itemPath>
+      <itemPath>Tarea2_arreglos_unidimensionales.c</itemPath>
       <itemPath>While.c</itemPath>
       <itemPath>hola_mundo.c</itemPath>
       <itemPath>tarea1_arreglos_unidimensionales.c</itemPath>
@@ -43,7 +44,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="tarea1_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
+      <item path="Tarea2_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -75,6 +76,8 @@
       <item path="Precedencia de operadores.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas_de_multiplicar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea2_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="While.c" ex="false" tool="0" flavor2="0">
       </item>

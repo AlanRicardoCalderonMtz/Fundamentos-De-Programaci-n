@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o
+	${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/tarea1_arreglos_unidimensionales.o: tarea1_arreglos_unidimensionales.c
+${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o: Tarea2_arreglos_unidimensionales.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tarea1_arreglos_unidimensionales.o tarea1_arreglos_unidimensionales.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o Tarea2_arreglos_unidimensionales.c
 
 # Subprojects
 .build-subprojects:
