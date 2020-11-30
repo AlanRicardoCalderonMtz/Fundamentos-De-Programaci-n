@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
           }           
         
         for(int i = 0; i<100; i++){
-         printf("Posición %d [%d]\n ", i, arreglo[i]);            
+         printf(" Posición %d [%d]\n ", i, arreglo[i]);            
     }
         
     return (EXIT_SUCCESS);
