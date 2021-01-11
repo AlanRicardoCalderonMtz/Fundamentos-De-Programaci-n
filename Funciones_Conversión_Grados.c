@@ -22,7 +22,7 @@ void Pedir_Centigrados();
 void Pedir_Fahrenheit();
 void Pedir_Kelvin();
 
-float GradosC, GradosF, GradosK;
+float GradosC, GradosF, GradosK; //Variables Globales
 
 int main(int argc, char** argv) {
 
