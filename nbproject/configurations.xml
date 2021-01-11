@@ -5,19 +5,52 @@
                    displayName="Header Files"
                    projectFiles="true">
     </logicalFolder>
-    <logicalFolder name="ResourceFiles"
-                   displayName="Resource Files"
-                   projectFiles="true">
-    </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <logicalFolder name="ResourceFiles"
+                     displayName="Resource Files"
+                     projectFiles="true">
+      </logicalFolder>
       <itemPath>2 Condicional if.c</itemPath>
       <itemPath>Condicional if.c</itemPath>
+      <itemPath>Estructuras_apuntadores1.c</itemPath>
+      <itemPath>Estructuras_apuntadores2.c</itemPath>
+      <itemPath>Estructuras_apuntadores3.c</itemPath>
+      <itemPath>Estructuras_apuntadores4.c</itemPath>
+      <itemPath>Estructuras_arreglos1.c</itemPath>
+      <itemPath>Estructuras_arreglos2.c</itemPath>
+      <itemPath>Estructuras_arreglos3.c</itemPath>
+      <itemPath>Estructuras_arreglos4.c</itemPath>
+      <itemPath>Estructuras_arreglos5.c</itemPath>
+      <itemPath>Estructuras_arreglos6.c</itemPath>
+      <itemPath>Estructuras_control1.c</itemPath>
+      <itemPath>Estructuras_control2.c</itemPath>
+      <itemPath>Estructuras_control3.c</itemPath>
+      <itemPath>Estructuras_control4.c</itemPath>
+      <itemPath>Estructuras_control5.c</itemPath>
+      <itemPath>Estructuras_control6.c</itemPath>
+      <itemPath>Estructuras_decision1.c</itemPath>
+      <itemPath>Estructuras_decision2.c</itemPath>
+      <itemPath>Estructuras_decision3.c</itemPath>
+      <itemPath>Estructuras_decision4.c</itemPath>
+      <itemPath>Estructuras_decision5.c</itemPath>
+      <itemPath>Estructuras_decision6.c</itemPath>
+      <itemPath>Estructuras_funciones1.c</itemPath>
+      <itemPath>Estructuras_funciones2.c</itemPath>
+      <itemPath>Estructuras_funciones3.c</itemPath>
+      <itemPath>Estructuras_funciones4.c</itemPath>
+      <itemPath>Estructuras_funciones5.c</itemPath>
       <itemPath>For.c</itemPath>
+      <itemPath>Funciones_Conversión_Grados.c</itemPath>
+      <itemPath>Implementacion de math.c</itemPath>
+      <itemPath>Metodo_burbuja.c</itemPath>
+      <itemPath>Metodo_burbuja_optimizado.c</itemPath>
       <itemPath>Precedencia de operadores.c</itemPath>
+      <itemPath>Promedio_en_arreglo.c</itemPath>
       <itemPath>Tablas_de_multiplicar.c</itemPath>
       <itemPath>Tarea2_arreglos_unidimensionales.c</itemPath>
+      <itemPath>Valor_Min_Max.c</itemPath>
       <itemPath>While.c</itemPath>
       <itemPath>hola_mundo.c</itemPath>
       <itemPath>tarea1_arreglos_unidimensionales.c</itemPath>
@@ -44,7 +77,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Tarea2_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
+      <item path="Estructuras_decision3.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -71,13 +104,79 @@
       </item>
       <item path="Condicional if.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Estructuras_apuntadores1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_apuntadores2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_apuntadores3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_apuntadores4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_arreglos1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_arreglos2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_arreglos3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_arreglos4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_arreglos5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_arreglos6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_control1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_control2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_control3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_control4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_control5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_control6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_decision1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_decision2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_decision3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_decision4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_decision5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_decision6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_funciones1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_funciones2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_funciones3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_funciones4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Estructuras_funciones5.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="For.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Funciones_Conversión_Grados.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Implementacion de math.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Metodo_burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Metodo_burbuja_optimizado.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Precedencia de operadores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Promedio_en_arreglo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tablas_de_multiplicar.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Valor_Min_Max.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="While.c" ex="false" tool="0" flavor2="0">
       </item>

@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o
+	${OBJECTDIR}/Estructuras_decision3.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/programacion_en_c ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o: Tarea2_arreglos_unidimensionales.c
+${OBJECTDIR}/Estructuras_decision3.o: Estructuras_decision3.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o Tarea2_arreglos_unidimensionales.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Estructuras_decision3.o Estructuras_decision3.c
 
 # Subprojects
 .build-subprojects:
