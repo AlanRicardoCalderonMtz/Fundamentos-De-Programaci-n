@@ -75,6 +75,11 @@ OBJECTFILES= \
 	${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o \
 	${OBJECTDIR}/Valor_Min_Max.o \
 	${OBJECTDIR}/While.o \
+	${OBJECTDIR}/arreglo_bidimensional.o \
+	${OBJECTDIR}/arreglo_unidimensional.o \
+	${OBJECTDIR}/funcion_strcmp.o \
+	${OBJECTDIR}/funcion_strcpy.o \
+	${OBJECTDIR}/funcion_strlen.o \
 	${OBJECTDIR}/hola_mundo.o \
 	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o
 
@@ -306,6 +311,31 @@ ${OBJECTDIR}/While.o: While.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/While.o While.c
+
+${OBJECTDIR}/arreglo_bidimensional.o: arreglo_bidimensional.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglo_bidimensional.o arreglo_bidimensional.c
+
+${OBJECTDIR}/arreglo_unidimensional.o: arreglo_unidimensional.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/arreglo_unidimensional.o arreglo_unidimensional.c
+
+${OBJECTDIR}/funcion_strcmp.o: funcion_strcmp.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funcion_strcmp.o funcion_strcmp.c
+
+${OBJECTDIR}/funcion_strcpy.o: funcion_strcpy.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funcion_strcpy.o funcion_strcpy.c
+
+${OBJECTDIR}/funcion_strlen.o: funcion_strlen.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funcion_strlen.o funcion_strlen.c
 
 ${OBJECTDIR}/hola_mundo.o: hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}

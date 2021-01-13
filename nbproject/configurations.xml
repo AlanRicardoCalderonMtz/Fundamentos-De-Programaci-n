@@ -11,6 +11,9 @@
       <logicalFolder name="ResourceFiles"
                      displayName="Resource Files"
                      projectFiles="true">
+        <itemPath>arreglo_unidimensional.c</itemPath>
+        <itemPath>funcion_strcpy.c</itemPath>
+        <itemPath>funcion_strlen.c</itemPath>
       </logicalFolder>
       <itemPath>2 Condicional if.c</itemPath>
       <itemPath>Condicional if.c</itemPath>
@@ -52,6 +55,8 @@
       <itemPath>Tarea2_arreglos_unidimensionales.c</itemPath>
       <itemPath>Valor_Min_Max.c</itemPath>
       <itemPath>While.c</itemPath>
+      <itemPath>arreglo_bidimensional.c</itemPath>
+      <itemPath>funcion_strcmp.c</itemPath>
       <itemPath>hola_mundo.c</itemPath>
       <itemPath>tarea1_arreglos_unidimensionales.c</itemPath>
     </logicalFolder>
@@ -77,7 +82,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Estructuras_decision3.c" ex="false" tool="0" flavor2="0">
+      <item path="funcion_strcmp.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -179,6 +184,16 @@
       <item path="Valor_Min_Max.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="While.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglo_bidimensional.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arreglo_unidimensional.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcion_strcmp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcion_strcpy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funcion_strlen.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="hola_mundo.c" ex="false" tool="0" flavor2="0">
       </item>
