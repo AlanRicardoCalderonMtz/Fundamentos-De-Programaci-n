@@ -80,8 +80,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/funcion_strcmp.o \
 	${OBJECTDIR}/funcion_strcpy.o \
 	${OBJECTDIR}/funcion_strlen.o \
+	${OBJECTDIR}/funciones.o \
 	${OBJECTDIR}/hola_mundo.o \
-	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o
+	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o \
+	${OBJECTDIR}/tarea_headers.o
 
 
 # C Compiler Flags
@@ -337,6 +339,11 @@ ${OBJECTDIR}/funcion_strlen.o: funcion_strlen.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funcion_strlen.o funcion_strlen.c
 
+${OBJECTDIR}/funciones.o: funciones.h
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones.o funciones.h
+
 ${OBJECTDIR}/hola_mundo.o: hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -346,6 +353,11 @@ ${OBJECTDIR}/tarea1_arreglos_unidimensionales.o: tarea1_arreglos_unidimensionale
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tarea1_arreglos_unidimensionales.o tarea1_arreglos_unidimensionales.c
+
+${OBJECTDIR}/tarea_headers.o: tarea_headers.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tarea_headers.o tarea_headers.c
 
 # Subprojects
 .build-subprojects:
