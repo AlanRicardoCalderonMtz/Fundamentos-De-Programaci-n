@@ -12,6 +12,12 @@
       <logicalFolder name="ResourceFiles"
                      displayName="Resource Files"
                      projectFiles="true">
+        <itemPath>Contador_caracteres.c</itemPath>
+        <itemPath>Recursividad_Torres-Hanoi.c</itemPath>
+        <itemPath>Recursividad_factorial.c</itemPath>
+        <itemPath>Recursividad_fibonacci.c</itemPath>
+        <itemPath>Tarea_contador_cadena.c</itemPath>
+        <itemPath>Tarea_ficheros.c</itemPath>
       </logicalFolder>
       <itemPath>2 Condicional if.c</itemPath>
       <itemPath>Condicional if.c</itemPath>
@@ -84,7 +90,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="tarea_headers.c" ex="false" tool="0" flavor2="0">
+      <item path="Recursividad_factorial.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -110,6 +116,8 @@
       <item path="2 Condicional if.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Condicional if.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Contador_caracteres.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Estructuras_apuntadores1.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -179,9 +187,19 @@
       </item>
       <item path="Promedio_en_arreglo.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Recursividad_Torres-Hanoi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Recursividad_factorial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Recursividad_fibonacci.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Tablas_de_multiplicar.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Tarea2_arreglos_unidimensionales.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea_contador_cadena.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Tarea_ficheros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Valor_Min_Max.c" ex="false" tool="0" flavor2="0">
       </item>

@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/2\ Condicional\ if.o \
 	${OBJECTDIR}/Condicional\ if.o \
+	${OBJECTDIR}/Contador_caracteres.o \
 	${OBJECTDIR}/Estructuras_apuntadores1.o \
 	${OBJECTDIR}/Estructuras_apuntadores2.o \
 	${OBJECTDIR}/Estructuras_apuntadores3.o \
@@ -71,8 +72,13 @@ OBJECTFILES= \
 	${OBJECTDIR}/Metodo_burbuja_optimizado.o \
 	${OBJECTDIR}/Precedencia\ de\ operadores.o \
 	${OBJECTDIR}/Promedio_en_arreglo.o \
+	${OBJECTDIR}/Recursividad_Torres-Hanoi.o \
+	${OBJECTDIR}/Recursividad_factorial.o \
+	${OBJECTDIR}/Recursividad_fibonacci.o \
 	${OBJECTDIR}/Tablas_de_multiplicar.o \
 	${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o \
+	${OBJECTDIR}/Tarea_contador_cadena.o \
+	${OBJECTDIR}/Tarea_ficheros.o \
 	${OBJECTDIR}/Valor_Min_Max.o \
 	${OBJECTDIR}/While.o \
 	${OBJECTDIR}/arreglo_bidimensional.o \
@@ -80,7 +86,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/funcion_strcmp.o \
 	${OBJECTDIR}/funcion_strcpy.o \
 	${OBJECTDIR}/funcion_strlen.o \
-	${OBJECTDIR}/funciones.o \
 	${OBJECTDIR}/hola_mundo.o \
 	${OBJECTDIR}/tarea1_arreglos_unidimensionales.o \
 	${OBJECTDIR}/tarea_headers.o
@@ -121,6 +126,11 @@ ${OBJECTDIR}/Condicional\ if.o: Condicional\ if.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Condicional\ if.o Condicional\ if.c
+
+${OBJECTDIR}/Contador_caracteres.o: Contador_caracteres.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Contador_caracteres.o Contador_caracteres.c
 
 ${OBJECTDIR}/Estructuras_apuntadores1.o: Estructuras_apuntadores1.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -294,6 +304,21 @@ ${OBJECTDIR}/Promedio_en_arreglo.o: Promedio_en_arreglo.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Promedio_en_arreglo.o Promedio_en_arreglo.c
 
+${OBJECTDIR}/Recursividad_Torres-Hanoi.o: Recursividad_Torres-Hanoi.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Recursividad_Torres-Hanoi.o Recursividad_Torres-Hanoi.c
+
+${OBJECTDIR}/Recursividad_factorial.o: Recursividad_factorial.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Recursividad_factorial.o Recursividad_factorial.c
+
+${OBJECTDIR}/Recursividad_fibonacci.o: Recursividad_fibonacci.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Recursividad_fibonacci.o Recursividad_fibonacci.c
+
 ${OBJECTDIR}/Tablas_de_multiplicar.o: Tablas_de_multiplicar.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -303,6 +328,16 @@ ${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o: Tarea2_arreglos_unidimensionale
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea2_arreglos_unidimensionales.o Tarea2_arreglos_unidimensionales.c
+
+${OBJECTDIR}/Tarea_contador_cadena.o: Tarea_contador_cadena.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_contador_cadena.o Tarea_contador_cadena.c
+
+${OBJECTDIR}/Tarea_ficheros.o: Tarea_ficheros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tarea_ficheros.o Tarea_ficheros.c
 
 ${OBJECTDIR}/Valor_Min_Max.o: Valor_Min_Max.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -339,10 +374,10 @@ ${OBJECTDIR}/funcion_strlen.o: funcion_strlen.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funcion_strlen.o funcion_strlen.c
 
-${OBJECTDIR}/funciones.o: funciones.h
+${OBJECTDIR}/funciones.h.gch: funciones.h
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones.o funciones.h
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o "$@" funciones.h
 
 ${OBJECTDIR}/hola_mundo.o: hola_mundo.c
 	${MKDIR} -p ${OBJECTDIR}
